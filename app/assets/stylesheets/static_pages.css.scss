@@ -64,7 +64,7 @@ p {
 /* header */
 
 #logo {
-  color: $white;
+  color: #FFFFFF;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
@@ -74,26 +74,22 @@ p {
   font-weight: bold;
   line-height: 1;
   &:hover {
-    color: $white;
+    color: #FFFFFF;
     text-decoration: none;
   }
-}
-
-.hero-unit {
-  @include single-box-shadow;
 }
 
 /* footer */
 
 footer {
   border-top: 1px solid $grayMediumLight;
-  color: $grayLight;
+  color: #FFFFFF;
   margin-top: 45px;
   padding-top: 5px;
   a {
-    color: $gray;
+    color: #FFFFFF;
     &:hover {
-      color: $grayDarker;
+      color: #FFFFFF;
     }
   } // a
   small {
