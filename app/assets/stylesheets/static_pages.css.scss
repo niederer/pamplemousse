@@ -2,9 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-@import "compass/reset";
-@import "compass/css3";
-@import "bootstrap";
 @import "screen";
 
 $grayMediumLight: #eaeaea;
@@ -64,7 +61,7 @@ p {
 /* header */
 
 #logo {
-  color: #FFFFFF;
+  color: $white;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
@@ -74,22 +71,26 @@ p {
   font-weight: bold;
   line-height: 1;
   &:hover {
-    color: #FFFFFF;
+    color: $white;
     text-decoration: none;
   }
+}
+
+.hero-unit {
+  @include single-box-shadow;
 }
 
 /* footer */
 
 footer {
   border-top: 1px solid $grayMediumLight;
-  color: #FFFFFF;
+  color: $grayLight;
   margin-top: 45px;
   padding-top: 5px;
   a {
-    color: #FFFFFF;
+    color: $gray;
     &:hover {
-      color: #FFFFFF;
+      color: $grayDarker;
     }
   } // a
   small {
